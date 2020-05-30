@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  box-sizing: border-box;
+}
+/* ********************завдання 1*/
+.task {
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: #fff;
+}
+h2 {
+  margin-bottom: 10px;
+}
+.categories {
+  list-style: none;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.item::before {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url('../images/join.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 10px;
+}
+/* ********************завдання 2 */
+.article::selection {
+  background-color: #3f51b5;
+  color: #fff;
+}
+/* ********************завдання 3 */
+.vport {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/task-03-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* ********************завдання 4 */
+.container {
+  background-color: #2a2a2a;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: aqua;
+  right: 0;
+}
+.box3 {
+  background-color: green;
+  right: 0;
+  bottom: 0;
+}
+.box4 {
+  background-color: yellowgreen;
+  bottom: 0;
+}
